@@ -1,0 +1,14 @@
+---
+title: "Testing R Notebook"
+output: html_notebook
+---
+## DataFrame intro
+```{r}
+a <- c(1:11)
+b <- c(10:20)
+
+df <- data.frame(a, b)
+names(df) <- c('col 1', 'col 2')
+df
+```
+
